@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+i",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "-workbench.action.reopenClosedEditor"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  }
+]
