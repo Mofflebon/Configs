@@ -1,33 +1,39 @@
 {
-  "editor.wordWrap": "on",
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "gitlens.hovers.currentLine.over": "line",
-  "tabnine.experimentalAutoImports": true,
-  "workbench.iconTheme": "vscode-icons",
+  "security.workspace.trust.untrustedFiles": "open",
   "vsicons.dontShowNewVersionMessage": true,
-  "window.menuBarVisibility": "visible",
-  "window.titleBarStyle": "custom",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDragAndDrop": false,
-  "git.autofetch": true,
-  "editor.fontWeight": "normal",
   "editor.guides.bracketPairs": true,
-  "settingsSync.ignoredSettings": ["editor.fontSize"],
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "explorer.confirmDelete": false,
+  //GIT
   "gitlens.currentLine.pullRequests.enabled": false,
   "gitlens.currentLine.uncommittedChangesFormat": "✏️ ${ago}",
-  "explorer.confirmDelete": false,
   "git.confirmSync": false,
-  "prettier.bracketSameLine": true,
-  "prettier.htmlWhitespaceSensitivity": "ignore",
+  "git.autofetch": true,
+  "gitlens.hovers.currentLine.over": "line",
+  //THEME
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "vscode-icons",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
   "editor.fontSize": 13,
-  "workbench.colorTheme": "Dracula",
-  "editor.formatOnSave": true,
+  "settingsSync.ignoredSettings": ["editor.fontSize"],
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "visible",
+  "editor.wordWrap": "on",
+  //TERMINAL
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.gpuAcceleration": "off",
-  "prettier.printWidth": 120
+  //FORMATTING
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 120,
+  "prettier.bracketSameLine": true,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  //HTML
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  }
 }
