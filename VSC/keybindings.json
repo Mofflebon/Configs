@@ -28,5 +28,10 @@
     "key": "alt+k",
     "command": "editor.action.formatSelection",
     "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "editor.action.addCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
