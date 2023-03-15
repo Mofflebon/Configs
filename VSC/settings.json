@@ -37,6 +37,7 @@
     "editor.formatOnSave": true
   },
   //INDENTATION
+  "editor.renderWhitespace": "none",
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.lightIndicatorStyleLineWidth": 2,
   "editor.guides.indentation": false,
@@ -45,5 +46,6 @@
     "rgba(127,255,127, 0.5)",
     "rgba(255,127,255, 0.5)",
     "rgba(79,236,236, 0.5)"
-  ]
+  ],
+  "indentRainbow.ignoreErrorLanguages": ["htmlWhitespaceSensitivity", "css"]
 }
